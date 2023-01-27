@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "chatgpt": "^3.5.1",
+    "dotenv": "^16.0.3",
+    "grammy": "^1.13.1",
+    "puppeteer": "^19.6.1"
+  },
+  "type": "module"
+}

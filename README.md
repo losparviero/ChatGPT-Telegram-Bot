@@ -2,6 +2,19 @@
 
 Now use ChatGPT in Telegram!
 
+### Brief Note
+
+Maintenance of this project is now semi-deprecated. This is largely in part due to the release of the official OpenAI API for chat interfaces.
+
+If you'd like to use the API and more up to date code, I recommend checking out [TeleGPT](https://github.com/Grahtni/telegpt). The functionality is similar but it differs in the way of interaction with OpenAI.
+
+#### Benefits of using the API
+
+1. More of a smoother experience.
+2. Don't have to run into issues with captcha or token refreshes.
+
+The API is not free however, so for those that'd like to continue with puppeteer based solutions, I'll continue to maintain this project.
+
 <br>
 
 ### Install
@@ -14,7 +27,7 @@ Now use ChatGPT in Telegram!
 
 #### Bot dev ID refers to the user ID of your Telegram account. This is needed to ensure there is no unauthorized access.
 
-#### It is advisable to use Google credentials for login to ChatGPT. using OpenAI login invokes a captcha which the captcha bypasser is not always able to get through. Google login eliminates this issue.
+#### It is advisable to use Google credentials for login to ChatGPT. Using OpenAI login invokes a captcha which the captcha bypasser is not always able to get through. Google login eliminates this issue.
 
 4. Rename example.env to .env.
 
